@@ -1,0 +1,12 @@
+/* BOTON PRIMARIO */
+.boton-primario{
+  border: 0;
+  padding: 1.5rem 2rem ;
+  border-radius: .5rem;
+  background: var(--primary);
+  color: white;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  animation: crecer 300ms;
+}

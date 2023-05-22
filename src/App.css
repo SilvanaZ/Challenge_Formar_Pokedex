@@ -1,0 +1,20 @@
+@import url('./styles/reset.css');
+@import url('./styles/colors.css');
+@import url('./styles/components.css');
+@import url('./styles/animations.css');
+
+.contenedor-de-audios{
+  display: none;
+}
+
+/* SCROLL */
+body::-webkit-scrollbar {
+  background: #1e2021;
+  background: #1b1c1d;
+  width: 1.4rem;
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(18, 18, 21);
+}
