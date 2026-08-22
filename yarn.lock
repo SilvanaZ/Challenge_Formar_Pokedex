@@ -1043,12 +1043,12 @@ __metadata:
   linkType: hard
 
 "brace-expansion@npm:^1.1.7":
-  version: 1.1.11
-  resolution: "brace-expansion@npm:1.1.11"
+  version: 1.1.18
+  resolution: "brace-expansion@npm:1.1.18"
   dependencies:
-    balanced-match: "npm:^1.0.0"
-    concat-map: "npm:0.0.1"
-  checksum: faf34a7bb0c3fcf4b59c7808bc5d2a96a40988addf2e7e09dfbb67a2251800e0d14cd2bfc1aa79174f2f5095c54ff27f46fb1289fe2d77dac755b5eb3434cc07
+    balanced-match: ^1.0.0
+    concat-map: 0.0.1
+  checksum: aa84023a4118f9185b6f8c71ca3467c945878b141ba340261de209676442f81b08db5b7c7c119707cdecb7322fcfcdb71d8ffea55db9d1aad673d7c65469211f
   languageName: node
   linkType: hard
 
@@ -1254,7 +1254,7 @@ __metadata:
     path-key: "npm:^3.1.0"
     shebang-command: "npm:^2.0.0"
     which: "npm:^2.0.1"
-  checksum: 8d306efacaf6f3f60e0224c287664093fa9185680b2d195852ba9a863f85d02dcc737094c6e512175f8ee0161f9b87c73c6826034c2422e39de7d6569cf4503b
+  checksum: 671cc7c7288c3a8406f3c69a3ae2fc85555c04169e9d611def9a675635472614f1c0ed0ef80955d5b6d4e724f6ced67f0ad1bb006c2ea643488fcfef994d7f52
   languageName: node
   linkType: hard
 
@@ -2328,7 +2328,7 @@ __metadata:
   resolution: "nanoid@npm:3.3.18"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: db804317d337b41602666f23014e399d1263033d13a903955c246378256fd4e002519e87199ca40b19aff52274965ac7cc6e70c13a63e194e15c4664724602d3
+  checksum: dfe0adbc0c77e9655b550c333075f51bb28cfc7568afbf3237249904f9c86c9aaaed1f113f0fddddba75673ee31c758c30c43d4414f014a52a7a626efc5958c9
   languageName: node
   linkType: hard
 
@@ -2504,13 +2504,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picocolors@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "picocolors@npm:1.1.1"
-  checksum: e1cf46bf84886c79055fdfa9dcb3e4711ad259949e3565154b004b260cd356c5d54b31a1437ce9782624bf766272fe6b0154f5f0c744fb7af5d454d2b60db045
-  languageName: node
-  linkType: hard
-
 "picomatch@npm:^2.0.4, picomatch@npm:^2.2.1, picomatch@npm:^2.3.1":
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
@@ -2547,10 +2540,10 @@ __metadata:
   version: 8.5.26
   resolution: "postcss@npm:8.5.26"
   dependencies:
-    nanoid: ^3.3.17
-    picocolors: ^1.1.1
-    source-map-js: ^1.2.1
-  checksum: 719b1acd7db117cffa1514a6ed47e71ba4159ebddd1be2616b65dc1580a6bb9289abb8a78d26e08b45ab5a03277662483a6413e4b08325df0260831f4c2bc11b
+    nanoid: "npm:^3.3.7"
+    picocolors: "npm:^1.0.0"
+    source-map-js: "npm:^1.2.0"
+  checksum: 649f9e60a763ca4b5a7bbec446a069edf07f057f6d780a5a0070576b841538d1ecf7dd888f2fbfd1f76200e26c969e405aeeae66332e6927dbdc8bdcb90b9451
   languageName: node
   linkType: hard
 
@@ -2756,7 +2749,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 6f8304e58ac8170a715e61e46c4aa674b2ae2587ed2a712dab58f72e5e54803ae40b485fbe6b3e6a694f4c8f7a59ab936ccf9f6b686c7cfd1f1970fa9ecadf1a
+  checksum: 8bb20a39c8d91130825159c3823eccf4dc2295c9a0a5c4ed851a5bf2167dbf24d9a29f23461a54c955e5506395e6cc188eafc8ab0e20399d7489fb33793b184e
   languageName: node
   linkType: hard
 
@@ -2897,10 +2890,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-js@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "source-map-js@npm:1.2.1"
-  checksum: 4eb0cd997cdf228bc253bcaff9340afeb706176e64868ecd20efbe6efea931465f43955612346d6b7318789e5265bdc419bc7669c1cebe3db0eb255f57efa76b
+"source-map-js@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "source-map-js@npm:1.2.0"
+  checksum: 791a43306d9223792e84293b00458bf102a8946e7188f3db0e4e22d8d530b5f80a4ce468eb5ec0bf585443ad55ebbd630bf379c98db0b1f317fd902500217f97
   languageName: node
   linkType: hard
 
@@ -3149,7 +3142,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 300c5f39c83b22413dfdc84f72e9ba979bf4004e4d939409eea1470b116626294495b09e2bd73fae387a254b79988c8d54ceb281f9515120a0eda179c33b216e
+  checksum: fd3f512ce48ca2a1fe60ad0376283b832de9272725fdbc65064ae9248f792de87b0f27a89573115e23e26784800daca329f8a9234d298ba6f60e808a9c63883c
   languageName: node
   linkType: hard
 
